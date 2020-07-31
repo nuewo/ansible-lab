@@ -1,6 +1,6 @@
 ---
 - name: Check Windows Update
-  hosts: "{{ ITSATWTVANS02 }}"
+  hosts: all
   gather_facts: False
 
   tasks:
