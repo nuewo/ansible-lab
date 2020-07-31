@@ -1,10 +1,8 @@
-[windows_ad]
-ITSATWTVANS02 ansible_host=192.168.130.191
+[windows_vm]
+win_vm ansible_host=172.16.100.51
 
-[windows_ad:vars]
-ansible_connection: winrm
-ansible_winrm_transport: basic
-ansible_port: 5985
+[windows_vm:vars]
+ansible_connection=winrm
+ansible_port=5985
 ansible_user=administrator
 ansible_password=mypassword
-ansible_become=false
