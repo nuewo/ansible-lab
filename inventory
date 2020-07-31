@@ -1,5 +1,6 @@
 [windows_ad]
 ITSATWTVANS02 ansible_host=192.168.130.191
+ITSATWTVANS01 ansible_host=192.168.130.192
 
 [windows_ad:vars]
 ansible_connection=winrm
