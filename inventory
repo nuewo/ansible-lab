@@ -4,4 +4,3 @@ ITSATWTVANS02 ansible_host=192.168.130.191
 [windows_ad:vars]
 ansible_connection=winrm
 ansible_port=5985
-ansible_winrm_transport: basic
