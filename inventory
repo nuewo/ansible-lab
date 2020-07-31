@@ -1,7 +1,8 @@
 [windows_ad]
-ITSATWTVANS02.ITSDONE.LOCAL ansible_host=192.168.130.191
+ITSATWTVANS02 ansible_host=192.168.130.191
 
 [windows_ad:vars]
 ansible_connection: winrm
 ansible_winrm_transport: basic
 ansible_port: 5985
+ansible_become=false
