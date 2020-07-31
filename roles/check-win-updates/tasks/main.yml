@@ -4,4 +4,3 @@
     category_names: "{{ win_update_category }}"
     state: searched
   register: list_of_updates
-  log_path: c:\ansible_wu.txt
