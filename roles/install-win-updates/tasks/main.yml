@@ -2,4 +2,3 @@
 - name: Install Windows Updates
   win_updates:
     category_names: "{{ win_update_category }}"
-    reboot: "{{ automatic_reboot_after_update }}"
