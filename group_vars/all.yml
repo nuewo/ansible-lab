@@ -1,0 +1,4 @@
+win_update_category:
+  - SecurityUpdates
+  - CriticalUpdates
+  - UpdateRollups
