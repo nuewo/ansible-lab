@@ -4,3 +4,9 @@
     category_names: "{{ win_update_category }}"
     state: searched
     log_path: c:/ansible_wu.txt
+    async: 180
+    poll: 10
+    register: updates_to_install
+    become: yes
+    become_method: runas
+    become_user: SYSTEM
