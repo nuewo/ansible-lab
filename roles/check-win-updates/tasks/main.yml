@@ -1,0 +1,6 @@
+---
+- name: Check Updates
+  win_updates:
+    category_names: "{{ win_update_category }}"
+    state: searched
+    log_path=c:/ansible_wu.txt
