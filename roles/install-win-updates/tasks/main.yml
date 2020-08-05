@@ -1,0 +1,9 @@
+---
+- hosts: AllWin
+  tasks:
+  - name: Install all outstanding approved Critical\Security updates rebooting as needed
+    win_updates:
+     category_names:
+      - SecurityUpdates
+      - CriticalUpdates
+    reboot: yes
