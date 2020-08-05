@@ -1,5 +1,5 @@
 ---
-  - name: Install all outstanding approved Critical\Security updates rebooting as needed
+  - name: Install all approved Critical Security updates rebooting as needed
     win_updates:
      category_names: "{{ win_update_category }}"
     reboot: yes
