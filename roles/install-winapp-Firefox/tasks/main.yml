@@ -1,5 +1,5 @@
 ---
 - name: Install an MSI Firefox 79.0 EN ESR x64, and wait for it to complete before continuing
-   win_msi:
+  win_package:
     path: \\ITSATWTVANS01\Source\Apps\Firefox\79.0-EN-x64\Firefox79.0.msi
-    wait: yes
+    state: present
