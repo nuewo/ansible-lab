@@ -1,7 +1,16 @@
 [windows_ad]
 ITSATWTVANS02 ansible_host=192.168.130.191
+
+[windows_kerberos]
 ITSATWTVANS01 ansible_host=192.168.130.192
 
 [windows_ad:vars]
 ansible_connection=winrm
 ansible_port=5985
+
+[windows_kerberos:vars]
+ansible_connection=winrm
+ansible_port=5985
+ansible_winrm_transport = kerberos
+ansible_winrm_server_cert_validation = ignore
+validate_certs = false
