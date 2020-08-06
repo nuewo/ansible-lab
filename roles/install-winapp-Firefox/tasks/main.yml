@@ -3,3 +3,7 @@
   win_package:
     path: \\ITSATWTVANS01\Source\Apps\Firefox\79.0-EN-x64\Firefox79.0.msi
     state: present
+     arguments:
+    - /qn
+    - /norestart
+    log_path: C:\Firefox_install.log
