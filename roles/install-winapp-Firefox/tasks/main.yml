@@ -1,8 +1,8 @@
 ---
 - name: install network msi
   win_package:
-    path: \\ITSATWTVANS01\Source\Apps\Firefox\79.0-EN-x64\Firefox79.0.msi
+    path: \\\\ITSATWTVANS01\\Source\\Apps\\Firefox\\79.0-EN-x64\\Firefox79.0.msi
     arguments: /qn # whatever the silent install options are
-    #username: ITSDONE\alise
+    #username: ITSDONE\admminarima
     #password: '{{ service_pwd }}'
     state: present
