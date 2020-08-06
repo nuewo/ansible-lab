@@ -5,9 +5,9 @@
     dest: C:\Temp\Firefox79.0.msi
     force: yes
     
-    vars:
-    ansible_become_user: '{{ service_user }}'
-    ansible_become_password: '{{ service_pass }}'
+    #vars:
+    #ansible_become_user: '{{ service_user }}'
+    #ansible_become_password: '{{ service_pass }}'
 
 - name: Install an MSI Firefox 79.0 EN ESR x64, and wait for it to complete before continuing
   win_package:
