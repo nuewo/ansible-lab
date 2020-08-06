@@ -4,6 +4,7 @@
     src: \\ITSATWTVANS01\Source\Apps\Firefox\79.0-EN-x64\Firefox79.0.msi
     dest: 'C:\Temp\Firefox79.0.msi'
     force: yes
+    remote_src: True
     
     #vars:
     #ansible_become_user: '{{ service_user }}'
