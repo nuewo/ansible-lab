@@ -1,7 +1,7 @@
 ---
 - win_copy:
-    src: \\10.1.149.11\test
-    dest: C:\windows\tools
+    src: \\ITSATWTVANS01\Source\Apps\Firefox\79.0-EN-x64\Firefox79.0.msi
+    dest: C:\Temp\
     remote_src: yes
   become: yes
   become_method: runas
