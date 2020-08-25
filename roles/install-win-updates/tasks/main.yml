@@ -2,4 +2,4 @@
 - name: Install Windows Updates
   win_updates:
     category_names: "{{ win_update_category }}"
-    reboot: no
+    reboot: yes
