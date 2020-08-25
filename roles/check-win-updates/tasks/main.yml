@@ -1,5 +1,5 @@
 - name: Search-only, return list of found updates (if any), log to C:\ansible_wu.txt
   win_updates:
-    category_names: SecurityUpdates
+    category_names: "{{ win_update_category }}"
     state: searched
     log_path: C:\ansible_wu.txt
