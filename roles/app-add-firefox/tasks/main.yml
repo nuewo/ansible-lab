@@ -8,3 +8,4 @@
     ansible_become_password: env:ANSIBLE_BECOME_PASS
     
 - win_shell: c:/Temp/copy-firefox.ps1
+    become: yes
