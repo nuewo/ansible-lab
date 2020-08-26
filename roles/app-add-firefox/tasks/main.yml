@@ -5,6 +5,3 @@
 
 - name: Trigger powershell script which copy source file on target machine
 - win_shell: c:/Temp/copy-firefox.ps1
-    become: yes
-    ansible_become_user: env:ANSIBLE_BECOME_USER
-    ansible_become_password: env:ANSIBLE_BECOME_PASS
