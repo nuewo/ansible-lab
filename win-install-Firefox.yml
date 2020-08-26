@@ -1,0 +1,7 @@
+---
+- name: Install MozillaFirefox
+  hosts: "{{ win_hosts }}"
+  gather_facts: False
+
+  roles:
+    - install-win-updates
