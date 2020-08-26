@@ -1,0 +1,8 @@
+
+---
+- name: Install Windows Update
+  hosts: "{{ win_hosts }}"
+  gather_facts: False
+
+  roles:
+    - install-winapp-Firefox
