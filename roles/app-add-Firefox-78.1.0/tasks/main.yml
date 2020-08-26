@@ -1,1 +1,4 @@
 ---
+- copy:
+    src: "app-add-Firefox-78.1.0/files/foo.conf"
+    dest: c:\Temp
