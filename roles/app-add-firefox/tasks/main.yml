@@ -3,7 +3,6 @@
     src: copy-firefox.ps1
     dest: c:/Temp/copy-firefox.ps1
 
-- name: Trigger powershell script which copy source file on target machine
   win_shell: c:/Temp/copy-firefox.ps1
   become: yes
   become_user: env:ANSIBLE_RUNAS_USER
