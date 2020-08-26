@@ -2,8 +2,3 @@
   win_copy:
     src: copy-firefox.ps1
     dest: c:/Temp/copy-firefox.ps1
-
-  win_shell: c:/Temp/copy-firefox.ps1
-  become: yes
-  become_user: env:ANSIBLE_RUNAS_USER
-  become_pass: env:ANSIBLE_RUNAS_PASS
