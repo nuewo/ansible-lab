@@ -1,8 +1,9 @@
----
+- name: Copy powershell script from github on target machine
 - win_copy:
     src: copy-firefox.ps1
     dest: c:/Temp/copy-firefox.ps1
-    
+
+- name: Trigger powershell script which copy source file on target machine
 - win_shell: c:/Temp/copy-firefox.ps1
     become: yes
     ansible_become_user: env:ANSIBLE_BECOME_USER
