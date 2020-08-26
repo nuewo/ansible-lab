@@ -5,4 +5,4 @@
   gather_facts: False
 
   roles:
-    - app-add-Firefox-78.1.0
+    - app-add-Firefox
