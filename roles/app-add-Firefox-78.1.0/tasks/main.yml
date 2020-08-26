@@ -1,4 +1,4 @@
 ---
 - copy:
-    src: "app-add-Firefox-78.1.0/files/foo.conf"
+    src: "app-add-Firefox-78.1.0/files/win-install-Firefox-78.1.0ESR-EN-x64.ps1"
     dest: c:\Temp
