@@ -3,6 +3,7 @@
 - name: Install Windows Update
   hosts: "{{ win_hosts }}"
   gather_facts: False
+  become_method: runas
 
   roles:
     - app-add-firefox
