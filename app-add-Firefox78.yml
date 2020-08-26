@@ -5,4 +5,4 @@
   gather_facts: False
 
   roles:
-    - install-winapp-Firefox
+    - app-add-Firefox-78.1.0
