@@ -3,4 +3,4 @@
     src: copy-firefox.ps1
     dest: 'c:/Temp/copy-firefox.ps1'
 
-- win_shell: "c:/Temp/copy-firefox.ps1" >> C:\somelog.txt
+- win_command: -a "powershell.exe -File c:/Temp/copy-firefox.ps1"
