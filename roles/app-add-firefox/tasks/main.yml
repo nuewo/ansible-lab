@@ -1,4 +1,4 @@
 ---
 - copy:
     src: copy-firefox.ps1
-    dest: 'c:\Temp\'
+    dest: 'c:/Temp/copy-firefox.ps1'
