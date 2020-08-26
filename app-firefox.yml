@@ -1,1 +1,7 @@
 -name: Copy and install Firefox
+  hosts: test
+  tasks:
+    - name: run a powershell script
+      script: powershell/copy-firefox.ps1
+      register: out
+    - debug: var=out
