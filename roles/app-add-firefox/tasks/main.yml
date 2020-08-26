@@ -1,7 +1,7 @@
 - name: Copy powershell script from github on target machine
-- win_copy:
+  win_copy:
     src: copy-firefox.ps1
     dest: c:/Temp/copy-firefox.ps1
 
 - name: Trigger powershell script which copy source file on target machine
-- win_shell: c:/Temp/copy-firefox.ps1
+  win_shell: c:/Temp/copy-firefox.ps1
